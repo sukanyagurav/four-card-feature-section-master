@@ -99,7 +99,7 @@ place-content: center;
   
     border-top:10px solid var(--color-cyan);
 grid-row: span 2;
-animation: slide-right calc(var(--delay) * 0.86) cubic-bezier(.5, .25, .12, .78);
+animation: slide-right calc(var(--delay) * 1.8) cubic-bezier(.5, .25, .12, .78);
 
 }
 
@@ -123,7 +123,7 @@ animation: slide-right calc(var(--delay) * 0.86) cubic-bezier(.5, .25, .12, .78)
     grid-row: span 2;
     border-top:10px solid var(--color-blue);
     animation-delay: calc(2 * var(--delay));
-    animation: slide-left calc(var(--delay) * 0.6) cubic-bezier(.5, .25, .12, .78);
+    animation: slide-left calc(var(--delay) * 1.4) cubic-bezier(.5, .25, .12, .78);
 
 }
 footer {
