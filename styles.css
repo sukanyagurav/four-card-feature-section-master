@@ -72,10 +72,10 @@ place-content: center;
    
   
     padding:1rem 1.5rem 2rem;
-    border-radius:10px; 
+    border-radius:5px; 
     display:flex;
     flex-direction:column;
-    
+    background-color:var(--color-light-gray);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card h2{
@@ -85,9 +85,10 @@ place-content: center;
     font-size:1.25rem;
 }
 .card p{
-    font-size:0.9rem;
+    font-size:0.95rem;
     font-weight:200;
     line-height:1.4;
+    color:var(--color-grayish-blue);
 }
 .card img{
     align-self:flex-end;
@@ -96,24 +97,24 @@ place-content: center;
   margin:2rem 0 0;
 }
 .card__supervisor{
-  
-    border-top:10px solid var(--color-cyan);
+
+    border-top:6px solid var(--color-cyan);
 grid-row: span 2;
 animation: slide-right calc(var(--delay) * 1.8) cubic-bezier(.5, .25, .12, .78);
-
+overflow: hidden;
 }
 
 .card__team{
  grid-column: 2/3;
  animation: slide-bottom var(--delay) cubic-bezier(.5, .25, .12, .78);
 
-   border-top: 10px solid var(--color-red);
+   border-top:6px solid var(--color-red);
 
 }
 .card__karma{
     grid-column: 2/3;
     grid-row:2/3;
-   border-top: 10px solid var(--color-orange);
+   border-top: 6px solid var(--color-orange);
    animation: slide-top calc(var(--delay) * 0.7) cubic-bezier(.5, .25, .12, .78);
     
 
@@ -121,7 +122,7 @@ animation: slide-right calc(var(--delay) * 1.8) cubic-bezier(.5, .25, .12, .78);
 .card__calculator{
   
     grid-row: span 2;
-    border-top:10px solid var(--color-blue);
+    border-top:6px solid var(--color-blue);
     animation-delay: calc(2 * var(--delay));
     animation: slide-left calc(var(--delay) * 1.4) cubic-bezier(.5, .25, .12, .78);
 
